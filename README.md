@@ -17,6 +17,8 @@ When I typed the secret code to my bot, it send me some buttons with file names 
 1. `git clone git@github.com:danillucky1234/memes-bot.git`
 2. `cd memes-bot`
 3. `pip3 install -r requirements.txt`
+4. `vim config.py`  
+4.1. In this file change all config constants according to your machine!
 4. `python3 main.py &`
 
 #### Dependecies
