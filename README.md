@@ -14,7 +14,7 @@ When I typed the secret code to my bot, it send me some buttons with file names 
 3.5. Send the file  
 
 #### How to download
-1. `git clone git@github.com:danillucky1234/memes-bot`
+1. `git clone git@github.com:danillucky1234/memes-bot.git`
 2. `cd memes-bot`
 3. `pip3 install -r requirements.txt`
 4. `python3 main.py &`
@@ -24,7 +24,5 @@ When I typed the secret code to my bot, it send me some buttons with file names 
 [mysql-connector-python](https://dev.mysql.com/doc/connector-python/en/)  
 
 ##### Screenshots
-<p align="center">
-![First page](https://imgur.com/lVp3nAN)
-![Third page](https://imgur.com/qnXvgvp)
-</p>
+![First page](https://imgur.com/lVp3nAN.jpg)
+![Third page](https://imgur.com/qnXvgvp.jpg)
