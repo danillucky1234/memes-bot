@@ -19,7 +19,8 @@ When I typed the secret code to my bot, it send me some buttons with file names 
 3. `pip3 install -r requirements.txt`
 4. `vim config.py`  
 4.1. In this file change all config constants according to your machine!
-4. `python3 main.py &`
+5. `python3 main.py &`
+6. Print `/secretCommand` in the chat with bot and get your files 
 
 #### Dependecies
 [pyTelegrambotAPI](https://pypi.org/project/pyTelegramBotAPI/)  

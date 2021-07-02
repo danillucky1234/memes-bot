@@ -12,4 +12,4 @@ START_MESSAGE = 'start message. This message is shown when someone write /start 
 
 START_PATH = 'path to the directory'
 
-SECRET_COMMAND = 'top secret command'
+SECRET_COMMAND = 'secretCommand'
