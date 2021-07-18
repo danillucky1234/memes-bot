@@ -5,6 +5,10 @@ import mysql.connector  # for connect to the mysql server
 import time             # for sleep function
 import threading        # we will use second thread to update our database
 import config           # my config, there are global constans such as token, database data and so on
+import logging
+
+# Write all errors to the log file
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%Y/%m/%d %I:%M:%S %p', filename='errors.log', encoding='utf-8', level=logging.ERROR)
 
 ############################ GLOBAL VARIABLES ########################################
 
@@ -233,4 +237,4 @@ def start_message(message):
     if message.text == '/start':
         printStartMenu(message)
 
-bot.polling()
+bot.infinity_polling()
